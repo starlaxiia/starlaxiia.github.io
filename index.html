@@ -7,6 +7,17 @@
 <body>
 <p style="color:blue;"> slop </p>
 <button onclick="alert('u r slop i am slop we r slop')">slop</button>
+  
+  <div class="drawing-app">
+  <div class="toolbar">
+    <input type="color" id="colorPicker" value="#ff007f">
+    <input type="range" id="brushSize" min="2" max="20" value="5">
+    <button onclick="clearCanvas()">Clear</button>
+  </div>
+  <canvas id="drawingCanvas" width="500" height="400"></canvas>
+  <button onclick="saveDrawing()">Post Drawing</button>
+</div>
+  
 </body>
   
 </html>
